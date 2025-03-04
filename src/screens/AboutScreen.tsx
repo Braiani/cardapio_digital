@@ -15,7 +15,7 @@ const AboutScreen = () => {
       </Text>
 
       {/* Link para mais informações */}
-      <TouchableOpacity onPress={() => Linking.openURL("https://github.com/seu-repo")}>
+      <TouchableOpacity onPress={() => Linking.openURL("https://github.com/Braiani/cardapio_digital")}>
         <Text style={tw`mt-4 text-blue-500 underline text-lg`}>Visite nosso GitHub</Text>
       </TouchableOpacity>
     </View>
